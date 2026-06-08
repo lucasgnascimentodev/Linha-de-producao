@@ -38,7 +38,15 @@ void  iniciar_fp(no **f,int t){
     }
 }
 }
+void iniciar_lde(dno **l){}
 
+//baitola de função para inserir um produto na fila duplamente encadeada
+void inserir_lde(no *f, dno **l){
+    if(*l == NULL){
+        printf("fila geradora de produtos vazia\n");
+    }
+    
+}  
 
 
 
